@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vrotek.github.io/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/vrotek.github.io/static/js/main.293230f3.chunk.js",
+    "main.js.map": "/vrotek.github.io/static/js/main.293230f3.chunk.js.map",
+    "runtime-main.js": "/vrotek.github.io/static/js/runtime-main.37be861c.js",
+    "runtime-main.js.map": "/vrotek.github.io/static/js/runtime-main.37be861c.js.map",
+    "static/js/2.3ab8ccfe.chunk.js": "/vrotek.github.io/static/js/2.3ab8ccfe.chunk.js",
+    "static/js/2.3ab8ccfe.chunk.js.map": "/vrotek.github.io/static/js/2.3ab8ccfe.chunk.js.map",
+    "static/js/3.bcae0e13.chunk.js": "/vrotek.github.io/static/js/3.bcae0e13.chunk.js",
+    "static/js/3.bcae0e13.chunk.js.map": "/vrotek.github.io/static/js/3.bcae0e13.chunk.js.map",
+    "index.html": "/vrotek.github.io/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/vrotek.github.io/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.3ab8ccfe.chunk.js.LICENSE.txt": "/vrotek.github.io/static/js/2.3ab8ccfe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37be861c.js",
+    "static/js/2.3ab8ccfe.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.293230f3.chunk.js"
+  ]
+}
