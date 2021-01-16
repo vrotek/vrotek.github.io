@@ -3,15 +3,21 @@ import Unity,{UnityContext} from 'react-unity-webgl'
 
 class unityPlayer extends Component {
 
-    constructor(props){
-        super(props)
+    constructor(){
+        super();
+        this.speed = 30;
+        this.state = {
+          degrees: 0,
+          message: "-",
+          showUnity: true,
+        };
         this.unityContext = new UnityContext({
-            codeUrl: "./build/new.wasm",
-            frameworkUrl: "./build/new.framework.js",
-            dataUrl: "./build/new.data",
-            loaderUrl: "./build/new.loader.js",
+          codeUrl: "/build/build.wasm",
+          frameworkUrl: "/build/build.framework.js",
+          dataUrl: "/build/build.data",
+          loaderUrl: "/build/build.loader.js",
         });
-    }
+  }
 
     state = {
         
@@ -20,7 +26,7 @@ class unityPlayer extends Component {
     render(){  
         return (
                 <div>
-                    <div><Unity width={"100%"} height={"100%"} unityContext={this.unityContext} /></div>
+                    { this.state.showUnity && <Unity width={"100%"} height={"100%"} unityContext={this.unityContext} />}
                 </div>
         )
     }
