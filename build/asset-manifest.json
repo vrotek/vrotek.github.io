@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/vrotek.github.io/static/css/main.17146a77.chunk.css",
-    "main.js": "/vrotek.github.io/static/js/main.97d0b4a0.chunk.js",
-    "main.js.map": "/vrotek.github.io/static/js/main.97d0b4a0.chunk.js.map",
+    "main.js": "/vrotek.github.io/static/js/main.a2b8f590.chunk.js",
+    "main.js.map": "/vrotek.github.io/static/js/main.a2b8f590.chunk.js.map",
     "runtime-main.js": "/vrotek.github.io/static/js/runtime-main.41a36294.js",
     "runtime-main.js.map": "/vrotek.github.io/static/js/runtime-main.41a36294.js.map",
     "static/js/2.d1f1406a.chunk.js": "/vrotek.github.io/static/js/2.d1f1406a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.41a36294.js",
     "static/js/2.d1f1406a.chunk.js",
     "static/css/main.17146a77.chunk.css",
-    "static/js/main.97d0b4a0.chunk.js"
+    "static/js/main.a2b8f590.chunk.js"
   ]
 }

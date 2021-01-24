@@ -14,10 +14,10 @@ class unityPlayer extends Component {
           showUnity: true,
         };
         this.unityContext = new UnityContext({
-          codeUrl: "/build/build.wasm",
-          frameworkUrl: "/build/build.framework.js",
-          dataUrl: "/build/build.data",
-          loaderUrl: "/build/build.loader.js",
+          codeUrl: "/build/builds.wasm",
+          frameworkUrl: "/build/builds.framework.js",
+          dataUrl: "/build/builds.data",
+          loaderUrl: "/build/builds.loader.js",
         });
   }
 
