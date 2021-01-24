@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {createStore, compose, applyMiddleware,combineReducers} from 'redux';
 import thunk from 'redux-thunk';
 import {Provider} from 'react-redux';
+import {BrowserRouter} from 'react-router-dom'
 
 const rootReducer = combineReducers({
   
@@ -15,7 +16,12 @@ const composeEnhancers = (process.env.NODE_ENV === 'development' && window.__RED
 const store = createStore(rootReducer, composeEnhancers(applyMiddleware(thunk)));
 
 
-ReactDOM.render(<Provider store={store}><App /></Provider>,document.getElementById('root'));
+ReactDOM.render(
+  <BrowserRouter>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </BrowserRouter>,document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Unity,{UnityContext} from 'react-unity-webgl'
 
+import classes from './unityPlayer.module.css'
+
 class unityPlayer extends Component {
 
     constructor(){
@@ -25,7 +27,7 @@ class unityPlayer extends Component {
 
     render(){  
         return (
-                <div>
+                <div className={classes.UnityPlayer}>
                     { this.state.showUnity && <Unity width={"100%"} height={"100%"} unityContext={this.unityContext} />}
                 </div>
         )
